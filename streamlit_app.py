@@ -90,8 +90,7 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-
-df 
+ 
 
 st.dataframe(filter_dataframe(df))
 
