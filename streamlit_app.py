@@ -90,13 +90,6 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
- 
-
-st.dataframe(filter_dataframe(df))
-
-# Display dataframe and text
-st.dataframe(dataframe)
-st.markdown("Below is a map showing all the Airbnb listings with a red dot and the location we've chosen with a blue dot.")
 
 # Create the plotly express figure
 fig = px.scatter_mapbox(
