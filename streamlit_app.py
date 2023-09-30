@@ -95,4 +95,4 @@ df = pd.read_csv(
     "WK2_Airbnb_Amsterdam_listings_proj_solution.csv", index_col=0
 )
 
-st.bar_chart(df.set_index('neighbourhood')
+st.bar_chart(df.set_index('neighbourhood'))
