@@ -95,3 +95,7 @@ df = pd.read_csv(
     "WK2_Airbnb_Amsterdam_listings_proj_solution.csv", index_col=0
 )
 st.dataframe(filter_dataframe(df))
+
+chart_data = pd.df(columns=["Neighbourhood"])
+
+st.bar_chart(chart_data)
